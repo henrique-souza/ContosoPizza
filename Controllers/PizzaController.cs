@@ -11,7 +11,9 @@ public class PizzaController : ControllerBase
     public PizzaController()
     {
     }
-    // GET
+    // GET (recupera todas Pizzas)
     [HttpGet]
     public ActionResult<List<Pizza>> GetAll() => PizzaService.GetAll();
+
+    // Unidade 6
 }
