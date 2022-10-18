@@ -2,6 +2,18 @@
 
 Web API REST using .NET and testing with HttpRepl
 
+Clone this repository, and run:
+```
+dotnet build
+```
+```
+dotnet run
+```
+Open the API using:
+```
+https://localhost:{PORT}/pizza
+```
+
 ### To install HttpRepl, run:
 ```
 dotnet tool install -g Microsoft.dotnet-httprepl
