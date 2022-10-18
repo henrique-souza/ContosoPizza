@@ -2,15 +2,15 @@
 
 Web API REST using .NET and testing with HttpRepl
 
-> To install HttpRepl, run:
+### To install HttpRepl, run:
 ```
 dotnet tool install -g Microsoft.dotnet-httprepl
 ```
-> In case there are 'description problems' on account of OpenAPI, run:
+### In case there are 'description problems' on account of OpenAPI, run:
 ```
 dotnet dev-certs https --trust
 ```
-> After that to see the Pizza API in action, run:
+### After that to see the Pizza API in action, run:
 ```
 dotnet run
 ```
