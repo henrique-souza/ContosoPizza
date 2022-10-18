@@ -2,14 +2,14 @@
 
 Web API REST using .NET and testing with HttpRepl
 
-Clone this repository, and run:
+### Clone this repository, and run:
 ```sh
 dotnet build
 ```
 ```sh
 dotnet run
 ```
-Open the API using:
+### Open the API using:
 ```sh
 https://localhost:{PORT}/pizza
 ```
