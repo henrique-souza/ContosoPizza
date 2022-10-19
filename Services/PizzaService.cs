@@ -13,9 +13,7 @@ namespace ContosoPizza.Services
             Pizzas = new List<Pizza>
             {
                 new Pizza {Id = 1, Name = "Três queijos", IsGlutenFree = false},
-                new Pizza {Id = 2, Name = "Portuguesa", IsGlutenFree = true},
-                new Pizza {Id = 3, Name = "Frango com Catupiry", IsGlutenFree = true},
-                new Pizza {Id = 4, Name = "Calabresa", IsGlutenFree = false}
+                new Pizza {Id = 2, Name = "Portuguesa", IsGlutenFree = true}
             };
         }
         // Método que retorna todas pizzas armazenadas
