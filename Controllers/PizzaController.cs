@@ -37,7 +37,7 @@ public class PizzaController : ControllerBase
     }
 
     // PUT (atualiza uma determinada pizza e suas informações)
-    [HttpPost("{id}")]
+    [HttpPut("{id}")]
     public IActionResult Update(int id, Pizza pizza)
     {
         if (id != pizza.Id)
